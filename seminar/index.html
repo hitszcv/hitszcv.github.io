@@ -66,11 +66,13 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+              
+              
+<div class="home">
 
   <h1 class="page-heading">Seminar</h1>
 
-  <ul class="post-list">
+  <ul class="post-list pagination1">
      
       
       
@@ -94,7 +96,6 @@
   <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
 
 </div>
-
       </div>
     </div>
 
@@ -144,6 +145,31 @@
 </footer>
 
 
-  </body>
 
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    blogs = 2;
+    pages = Math.floor(blogs / 10) + 1;
+    $("#curr_page").text("1/" +pages);
+
+    $(".prev").click(function(){
+      alert("aa");
+    });
+
+    $(".next").click(function(){
+      alert("aa");
+    });
+    //initial
+   // for (var i = 0; i <10 && i<blogs; i++) {
+   //   $("#"+i).show().addClass("blk_shown");
+   // };
+
+   $("ul.pagination1").quickPagination();
+
+  });
+  </script>
+
+  </body>
+<script type="text/javascript" src="/js/jquery.quick.pagination.min.js"></script>
 </html>
