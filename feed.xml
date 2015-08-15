@@ -6,8 +6,8 @@
 </description>
     <link>http://highcv.com/</link>
     <atom:link href="http://highcv.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Aug 2015 22:25:37 +0800</pubDate>
-    <lastBuildDate>Sat, 15 Aug 2015 22:25:37 +0800</lastBuildDate>
+    <pubDate>Sat, 15 Aug 2015 22:29:33 +0800</pubDate>
+    <lastBuildDate>Sat, 15 Aug 2015 22:29:33 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>
 </description>
         <pubDate>Tue, 01 Sep 2015 00:00:00 +0800</pubDate>
-        <link>http://highcv.com/course/2015-09-01-Algorithm-analysis/</link>
-        <guid isPermaLink="true">http://highcv.com/course/2015-09-01-Algorithm-analysis/</guid>
+        <link>http://highcv.com/course/Algorithmanalysis/</link>
+        <guid isPermaLink="true">http://highcv.com/course/Algorithmanalysis/</guid>
         
         
         <category>course</category>
@@ -29,8 +29,8 @@
 
 </description>
         <pubDate>Sat, 15 Aug 2015 00:00:00 +0800</pubDate>
-        <link>http://highcv.com/seminar/2015-08-15-modelfree/</link>
-        <guid isPermaLink="true">http://highcv.com/seminar/2015-08-15-modelfree/</guid>
+        <link>http://highcv.com/seminar/modelfree/</link>
+        <guid isPermaLink="true">http://highcv.com/seminar/modelfree/</guid>
         
         
         <category>seminar</category>
@@ -42,8 +42,8 @@
         <description>&lt;p&gt;&lt;a href=&quot;../files/PPT/Inference by Combining Fine-grained and Coarse- grained Appearance Models in Visual Tracking.pptx&quot;&gt;PPT&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 08 Aug 2015 00:00:00 +0800</pubDate>
-        <link>http://highcv.com/seminar/2015-08-08-mx/</link>
-        <guid isPermaLink="true">http://highcv.com/seminar/2015-08-08-mx/</guid>
+        <link>http://highcv.com/seminar/Inference%20by%20Combining%20Fine-grained%20and%20Coarse-%20grained%20Appearance%20Models%20in%20Visual%20Tracking/</link>
+        <guid isPermaLink="true">http://highcv.com/seminar/Inference%20by%20Combining%20Fine-grained%20and%20Coarse-%20grained%20Appearance%20Models%20in%20Visual%20Tracking/</guid>
         
         
         <category>seminar</category>
