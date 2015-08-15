@@ -3,12 +3,13 @@ require "tmpdir"
 source_branch = "source"
 production_branch = "master"
 
-tmp = "./_tmp_/"
+dir_tmp = "./_tmp_"
 
 desc "Delete _site/"
 task :delete do
   puts "\## Deleting _site/"
   status = system("rm -r _site")
+  status = system("rm -r _tmp_")
   puts status ? "Success" : "Failed"
 end
 
@@ -34,7 +35,7 @@ desc "Deploy _site/ to #{production_branch} branch"
 task :deploy do
   Dir.mktmpdir do |tmp|
     puts "\n## Moving #{source_branch} branch _site contents to tmp folder"
-    status = system("mv _site/* #{tmp}")
+    status = system("mv _site/* #{dir_tmp}")
     puts status ? "Success" : "Failed"
     puts "\n## Switching to #{production_branch} branch"
     status = system("git checkout #{production_branch}")
@@ -48,7 +49,7 @@ task :deploy do
     puts status ? "Success" : "Failed"
 
     puts "\n## Moving contents in tmp folder to #{production_branch} branch"
-    status = system("mv #{tmp}/* .")
+    status = system("mv #{dir_tmp}/* .")
     puts status ? "Success" : "Failed"
   end
   puts "\n## Adding #{production_branch} branch changes"
