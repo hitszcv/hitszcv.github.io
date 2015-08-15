@@ -7,8 +7,23 @@
     <meta name="description" content="{{ site.description }}">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/gridism.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <script type="text/javascript" src = "{{site.baseurl}}/js/jquery-2.1.1.min.js"></script>
+   
+ <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+      tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+      },
+      TeX: { 
+     equationNumbers: {  autoNumber: "all"  },
+     extensions: ["AMSmath.js","color.js"]
+      }
+});
+</script>
+
     <script type="text/javascript"
   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
