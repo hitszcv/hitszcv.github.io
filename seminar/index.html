@@ -1,0 +1,28 @@
+---
+layout: default
+title: Seminar
+categories: seminar
+---
+
+
+<div class="home">
+
+  <h1 class="page-heading">Seminar</h1>
+
+  <ul class="post-list">
+     {% assign category = page.categories | join: ' ' | split: ' ' | last %}
+      {% assign index = 0 %}
+      {% for post in site.categories[category] %}
+       <li id = "{{index}}" >
+      {% capture index %}{{ index | plus: '1' }}{% endcapture %}
+       <h3><a href="{{ post.url }}">{{ post.title }}</a><b> </b><small><time date="{{ post.date }}">{{ post.date | date: "%B %d, %Y" }}</time></small></h3>
+   
+       <h5>Abstract:</h5>{{ post.summary }}
+
+      {% endfor %}
+      </li>
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

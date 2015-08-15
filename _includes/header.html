@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/" ><span class = "big_title">{{ site.title }}</span>@HITSZ</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,11 +14,25 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+         <nav class="main-nav">
+          <ul>
+
+         <li class="{% if category == 'blog' %}current{% endif %}">
+        <a href="{{ site.baseurl }}/course">COURSE</a>
+        </li>
+
+            <li class="{% if category == 'blog' %}current{% endif %}">
+        <a href="{{ site.baseurl }}/seminar">SEMINAR</a>
+        </li>
+        
+          <li class="{% if category == 'blog' %}current{% endif %}">
+        <a href="{{ site.baseurl }}/publication">PUBLICATION</a>
+        </li>
+         <li class="{% if category == 'blog' %}current{% endif %}">
+        <a href="{{ site.baseurl }}/members">MEMBERS</a>
+        </li>
+          </ul>
+         </nav>
       </div>
     </nav>
 

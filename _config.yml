@@ -1,6 +1,6 @@
 # Site settings
-title: ComupterVision@HITSZ
-email: hitszcv@163.com
+title: ComupterVision
+email: hitszcv@163.com, hitszcv@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  .
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -9,3 +9,6 @@ github_username:  hitszcv
 
 # Build settings
 markdown: kramdown
+hightlighter: pygments
+permalink: /:categories/:year-:month-:day-:title/
+relative_permalinks: false
