@@ -10,5 +10,5 @@ github_username:  hitszcv
 # Build settings
 markdown: kramdown
 hightlighter: pygments
-permalink: /:categories/:year-:month-:day-:title/
+permalink: /:categories/:title/
 relative_permalinks: false
