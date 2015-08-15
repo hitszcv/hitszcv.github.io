@@ -1,6 +1,6 @@
 require "tmpdir"
 
-source_branch = "sources"
+source_branch = "source"
 production_branch = "master"
 
 desc "Delete _site/"
