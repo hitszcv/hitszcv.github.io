@@ -3,11 +3,11 @@ require "tmpdir"
 source_branch = "source"
 production_branch = "master"
 
-dir_tmp = "./_tmp_"
+dir_tmp = "../_tmp_"
 
  puts "prepocess..."
-  status = system("rm -r _tmp_")
-  status = system("mkdir  _tmp_")
+  status = system("rm -r #{dir_tmp}")
+  status = system("mkdir  #{dir_tmp}")
 puts status ? "Success" : "Failed"
 
 desc "Delete _site/"
