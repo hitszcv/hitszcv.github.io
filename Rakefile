@@ -6,8 +6,8 @@ production_branch = "master"
 dir_tmp = "E:/ARTICLES/_tmp_"
 
  puts "prepocess..."
-  status = system("rm -r  #{dir_tmp}")
-  status = system("mkdir   #{dir_tmp}")
+  status = system("rm -r  #{dir_tmp}/*")
+#status = system("mkdir   #{dir_tmp}")
 puts status ? "Success" : "Failed"
 
 desc "Delete _site/"
