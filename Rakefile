@@ -3,6 +3,8 @@ require "tmpdir"
 source_branch = "source"
 production_branch = "master"
 
+tmp = "./_tmp_"
+
 desc "Delete _site/"
 task :delete do
   puts "\## Deleting _site/"
