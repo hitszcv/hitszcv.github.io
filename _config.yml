@@ -1,11 +1,11 @@
 # Site settings
-title: Turingki's Lab
-email: turingki@yeah.net
+title: ComupterVision@HITSZ
+email: hitszcv@163.com
 description: > # this means to ignore newlines until "baseurl:"
- This site is uesd to test some interesting stuffs.
+ .
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://turingki.com" # the base hostname & protocol for your site
-github_username:  TuringKi
+url: "http://highcv.com" # the base hostname & protocol for your site
+github_username:  hitszcv
 
 # Build settings
 markdown: kramdown
