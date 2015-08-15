@@ -5,12 +5,16 @@ production_branch = "master"
 
 dir_tmp = "./_tmp_"
 
+ puts "prepocess..."
+  status = system("rm -r _tmp_")
+  status = system("mkdir  _tmp_")
+puts status ? "Success" : "Failed"
+
 desc "Delete _site/"
 task :delete do
   puts "\## Deleting _site/"
   status = system("rm -r _site")
-  status = system("rm -r _tmp_")
-  status = system("mkdir  _tmp_")
+
   puts status ? "Success" : "Failed"
 end
 
