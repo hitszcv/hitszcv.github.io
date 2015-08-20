@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Inference by Combining Fine-grained and Coarse- grained Appearance Models in Visual Tracking</title>
+    <title>Convolutional Sparse Coding</title>
     <meta name="description" content=".
 ">
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/gridism.css">
-    <link rel="canonical" href="http://highcv.com/seminar/Inference%20by%20Combining%20Fine-grained%20and%20Coarse-%20grained%20Appearance%20Models%20in%20Visual%20Tracking/">
+    <link rel="canonical" href="http://highcv.com/seminar/csc/">
     <script type="text/javascript" src = "/js/jquery-2.1.1.min.js"></script>
    
  <script type="text/x-mathjax-config">
@@ -84,8 +84,8 @@ MathJax.Hub.Config({
         <div class="post">
 
   <article class="post-content">
-    <h1 class="post-title">Inference by Combining Fine-grained and Coarse- grained Appearance Models in Visual Tracking</h1>
-    <p class="post-meta">Aug 8, 2015</p>
+    <h1 class="post-title">Convolutional Sparse Coding</h1>
+    <p class="post-meta">Aug 20, 2015</p>
  
 
 <div class="BlogAnchor">
@@ -103,7 +103,25 @@ MathJax.Hub.Config({
 
 
   
-    <p><a href="../files/PPT/Inference by Combining Fine-grained and Coarse- grained Appearance Models in Visual Tracking.pptx">PPT</a></p>
+    <p>卷积稀疏编码的核心思想是利用图像中分布稀疏的patch （这样的patch可在图像的不同位置重复出现）重构原图像。
+以人脸图像为例， 卷积稀疏编码构造出的字典(一组滤波器)应该包含眼睛，嘴，鼻子等这些在图像中分布比较稀疏，但却包含了图像的主要信息的patch。其目标函数为：</p>
+
+<script type="math/tex; mode=display">\label{}
+\arg_{d_i, z_i}\min ~\|x - \sum_{i = 1}^N d_i * z_i\|_2^2 + \sum_{i = 1}^N\|z_i\|_1</script>
+
+<p>其中$x$为原始图像, ${d_1, d_2, \cdots, d_N}$为一组滤波器（字典），${z_1, z_2, \cdots, z_N}$ 为响应图(features map)。
+$*$ 为卷积运算符。</p>
+
+<p>在<a href="#fcsc">[1]</a>中，作者利用傅里叶变换，将时域目标函数的求解转换到频域，提高了求解速度。</p>
+
+<p>在<a href="#fcsc_impl">[2]</a>中给出了快速卷积稀疏编码的实现。其源代码：<a href="https://github.com/hitszcv/FCSC">Implementation</a></p>
+
+<p>Note: this FCSC is implemented by <a href="http://julialang.org/">Julia</a>, a new science computing language.</p>
+
+<h2 id="section">引用</h2>
+
+<ol class="bibliography"><li><abbr><span id="fcsc">[1]H. Bristow, A. Eriksson, and S. Lucey, “Fast Convolutional Sparse Coding,” in <i>Computer Vision and Pattern Recognition (CVPR), 2013 IEEE Conference on</i>, 2013.</span></abbr><a href="/./repository/fcsc.pdf">[pdf]</a></li>
+<li><abbr><span id="fcsc_impl">[2]B. Kong and C. C. Fowlkes, “Fast Convolutional Sparse Coding,” Department of Computer Science, University of California, Irvine, 2014.</span></abbr><a href="/./repository/fcsc_impl.pdf">[pdf]</a></li></ol>
 
   </article>
 

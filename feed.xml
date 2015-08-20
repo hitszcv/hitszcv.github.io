@@ -6,8 +6,8 @@
 </description>
     <link>http://highcv.com/</link>
     <atom:link href="http://highcv.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Aug 2015 22:45:49 +0800</pubDate>
-    <lastBuildDate>Sat, 15 Aug 2015 22:45:49 +0800</lastBuildDate>
+    <pubDate>Thu, 20 Aug 2015 16:24:35 +0800</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2015 16:24:35 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -20,6 +20,37 @@
         
         
         <category>course</category>
+        
+      </item>
+    
+      <item>
+        <title>Convolutional Sparse Coding</title>
+        <description>&lt;p&gt;卷积稀疏编码的核心思想是利用图像中分布稀疏的patch （这样的patch可在图像的不同位置重复出现）重构原图像。
+以人脸图像为例， 卷积稀疏编码构造出的字典(一组滤波器)应该包含眼睛，嘴，鼻子等这些在图像中分布比较稀疏，但却包含了图像的主要信息的patch。其目标函数为：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\label{}
+\arg_{d_i, z_i}\min ~\|x - \sum_{i = 1}^N d_i * z_i\|_2^2 + \sum_{i = 1}^N\|z_i\|_1&lt;/script&gt;
+
+&lt;p&gt;其中$x$为原始图像, ${d_1, d_2, \cdots, d_N}$为一组滤波器（字典），${z_1, z_2, \cdots, z_N}$ 为响应图(features map)。
+$*$ 为卷积运算符。&lt;/p&gt;
+
+&lt;p&gt;在&lt;a href=&quot;#fcsc&quot;&gt;[1]&lt;/a&gt;中，作者利用傅里叶变换，将时域目标函数的求解转换到频域，提高了求解速度。&lt;/p&gt;
+
+&lt;p&gt;在&lt;a href=&quot;#fcsc_impl&quot;&gt;[2]&lt;/a&gt;中给出了快速卷积稀疏编码的实现。其源代码：&lt;a href=&quot;https://github.com/hitszcv/FCSC&quot;&gt;Implementation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: this FCSC is implemented by &lt;a href=&quot;http://julialang.org/&quot;&gt;Julia&lt;/a&gt;, a new science computing language.&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;引用&lt;/h2&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;abbr&gt;&lt;span id=&quot;fcsc&quot;&gt;[1]H. Bristow, A. Eriksson, and S. Lucey, “Fast Convolutional Sparse Coding,” in &lt;i&gt;Computer Vision and Pattern Recognition (CVPR), 2013 IEEE Conference on&lt;/i&gt;, 2013.&lt;/span&gt;&lt;/abbr&gt;&lt;a href=&quot;/./repository/fcsc.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;abbr&gt;&lt;span id=&quot;fcsc_impl&quot;&gt;[2]B. Kong and C. C. Fowlkes, “Fast Convolutional Sparse Coding,” Department of Computer Science, University of California, Irvine, 2014.&lt;/span&gt;&lt;/abbr&gt;&lt;a href=&quot;/./repository/fcsc_impl.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 20 Aug 2015 00:00:00 +0800</pubDate>
+        <link>http://highcv.com/seminar/csc/</link>
+        <guid isPermaLink="true">http://highcv.com/seminar/csc/</guid>
+        
+        
+        <category>seminar</category>
         
       </item>
     
