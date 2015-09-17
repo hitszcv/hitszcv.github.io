@@ -16,7 +16,7 @@ References textbook :Introduction to Algorithms [[CN](http://item.jd.com/1114423
 
 ##Contents
 
-|| *Lectures* || *Titles* || *Downloads* ||
-|| 1 || INTRODUCTION TO ALGORITHM  || [PPT](../files/Lecture1.ppt) ||
-|| 2 || RECURRENCE & DIVIDE-AND-CONQUER || [PPT](../files/Lecture2.ppt) ||
+|| *Lectures* || *Titles* || *Content Covered* || *Downloads* ||
+|| 1 || INTRODUCTION TO ALGORITHM  || What’s algorithms; Why we study algorithms? Some simple examples of algorithms; Algorithm efficiency. Insertion sort; Asymptotic time analysis.|| [PPT](../files/Lecture1.ppt) ||
+|| 2 || RECURRENCE & DIVIDE-AND-CONQUER || Divide-and-conquer; Recurrence; Recurrence solution methods;  Big integer multiplication; Chessboard cover. || [PPT](../files/Lecture2.ppt) ||
 
