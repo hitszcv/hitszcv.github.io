@@ -6,14 +6,16 @@
 </description>
     <link>http://highcv.com/</link>
     <atom:link href="http://highcv.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Sep 2015 21:14:24 +0800</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2015 21:14:24 +0800</lastBuildDate>
+    <pubDate>Thu, 17 Sep 2015 18:08:24 +0800</pubDate>
+    <lastBuildDate>Thu, 17 Sep 2015 18:08:24 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Algorithm Analysis</title>
         <description>&lt;h3 id=&quot;resource&quot;&gt;Resource&lt;/h3&gt;
 &lt;p&gt;Lectures 2012:&lt;a href=&quot;../files/2012Algorithms.rar&quot;&gt;2012Algorithms.rar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Lectures 2014:&lt;a href=&quot;../files/2014Algorithms.rar&quot;&gt;2014Algorithms.rar&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;References textbook :Introduction to Algorithms [&lt;a href=&quot;http://item.jd.com/11144230.html&quot;&gt;CN&lt;/a&gt;][&lt;a href=&quot;http://gen.lib.rus.ec/book/index.php?md5=E07DD7CDAFED5967F6B3EFEC6715CEF3&quot;&gt;EN&lt;/a&gt;]&lt;/p&gt;
 </description>
