@@ -6,8 +6,8 @@
 </description>
     <link>http://highcv.com/</link>
     <atom:link href="http://highcv.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Sep 2015 18:56:23 +0800</pubDate>
-    <lastBuildDate>Thu, 17 Sep 2015 18:56:23 +0800</lastBuildDate>
+    <pubDate>Fri, 25 Sep 2015 16:26:00 +0800</pubDate>
+    <lastBuildDate>Fri, 25 Sep 2015 16:26:00 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -56,9 +56,30 @@
       &lt;td&gt;&lt;a href=&quot;../files/Lecture2.ppt&quot;&gt;PPT&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;SORTING ALGORITHMS&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Quick sort; Decision-tree; Linear time sorting algorithms; Counting-sort; Radix Sort; Bucket Sort.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;../files/Lecture3.ppt&quot;&gt;PPT&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;HASH TABLES&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Hash table; Direct-access tables; Hash functions; Open Addressing&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;../files/Lecture4.ppt&quot;&gt;PPT&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-
 </description>
         <pubDate>Tue, 15 Sep 2015 00:00:00 +0800</pubDate>
         <link>http://highcv.com/course/Algorithmanalysis/</link>
