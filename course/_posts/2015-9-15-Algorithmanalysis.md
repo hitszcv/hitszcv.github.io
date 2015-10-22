@@ -21,3 +21,6 @@ References textbook :Introduction to Algorithms [[CN](http://item.jd.com/1114423
 || 2 || RECURRENCE & DIVIDE-AND-CONQUER || Divide-and-conquer; Recurrence; Recurrence solution methods;  Big integer multiplication; Chessboard cover. || [PPT](../files/Lecture2.ppt) ||
 || 3 || SORTING ALGORITHMS || Quick sort; Decision-tree; Linear time sorting algorithms; Counting-sort; Radix Sort; Bucket Sort. || [PPT](../files/Lecture3.ppt) ||
 || 4 || HASH TABLES || Hash table; Direct-access tables; Hash functions; Open Addressing || [PPT](../files/Lecture4.ppt) ||
+|| 5 || BINARY SEARCH TREES || Augmenting data structure; Dynamic order statistics; How to augment data structure; Interval tree. || [PPT](../files/Lecture5.pdf) ||
+|| 6 || RED-BLACK TREES || Dynamic programming;  Matrix-Chain multiplication; Longest common sequence；triangle decomposition of convex polygon. || [PPT](../files/Lecture6.pdf) ||
+|| 7 || AUGMENTING DATA STRUCTURES || Design one program of dynamic programming and greedy algorithms. || [PPT](../files/Lecture7.pdf) ||
